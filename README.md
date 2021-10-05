@@ -38,8 +38,8 @@ https://github.com/apostomike4/Digital_Electronics_2
     #include <avr/io.h>
     
     
-{
-    
+int main(void)
+{    
     
     // DDRB = DDRB or 0010 0000
     DDRB = DDRB | (1<<LED_GREEN);
