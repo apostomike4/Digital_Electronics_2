@@ -31,7 +31,7 @@ https://github.com/apostomike4/Digital_Electronics_2
     #define LONG_DELAY 3000
     #ifndef F_CPU
     
-    # define F_CPU 16000000
+    #define F_CPU 16000000
     #endif
     
     #include <util/delay.h>
