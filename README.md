@@ -26,7 +26,8 @@ https://github.com/apostomike4/Digital_Electronics_2
 
 ### Morse code
 
-    #define LED_GREEN   PB5  
+    #define LED_GREEN   PB5
+    #define DELAY 250
     #define SHORT_DELAY 1000
     #define LONG_DELAY 3000
     #ifndef F_CPU
@@ -55,6 +56,10 @@ int main(void)
         PORTB = PORTB ^ (1<<LED_GREEN);
         _delay_ms(SHORT_DELAY);
         
+        // using a delay when the LED is off so we can actually see that the LED is off 
+        PORTB = PORTB ^ (1<<LED_GREEN);
+        _delay_ms(DELAY);
+        
         // comma is represented with a longer delay
         PORTB = PORTB ^ (1<<LED_GREEN);
         _delay_ms(LONG_DELAY);
@@ -70,4 +75,5 @@ int main(void)
 
 2. Scheme 
 
-![Screenshot_1](https://user-images.githubusercontent.com/91612253/136048688-d119abd0-f20e-4fdf-85bb-06e55c2b4a40.png)
+
+![Uploading Screenshot_1.png…]()
