@@ -72,8 +72,3 @@ int main(void)
 }
 ```
 
-
-2. Scheme 
-
-
-![Uploading Screenshot_1.png…]()
