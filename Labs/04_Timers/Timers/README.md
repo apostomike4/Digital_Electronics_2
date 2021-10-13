@@ -19,8 +19,7 @@ https://github.com/apostomike4/Digital_Electronics_2
 
 1. In your words, describe the difference between common C function and interrupt service routine.
    * Function is a construct by the programmer that can be called upon and do whatever we may like.
-   * Interrupt service routine is invoked by an interupt request from a hardware device and we can programm it to do whatever we like.![Screenshot_4](https://user-images.githubusercontent.com/91612253/137202873-34e47200-d8ce-4178-a9ff-ccc19d63531e.png)
-
+   * Interrupt service routine is invoked by an interupt request from a hardware device and we can programm it to do whatever we like.![Screenshot_4](https://user
 
 All in all, the main difference in a function and an ISR, is that the ISR is called from some hardware settings but the function is called whenever we like in main.
 
