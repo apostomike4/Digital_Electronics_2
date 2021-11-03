@@ -1,0 +1,14 @@
+
+Push button|PC0[A0] voltage|ADC value |	measurement
+Right      |      0        |          | 0
+Up         |     0.495     |          | 99
+Down       |     1203      |   246    | 256
+Left       |    206666     | 42284000 | 409
+Select     |               |          | 640 
+none       |               |          | 1023
+
+
+
+ADC Enable | ADCSRA | ADEN7 |  ADC Enable|
+Start Conversion | ADSC | ADSC6 | ADC Start Conversion|
+ADC interupt enable
