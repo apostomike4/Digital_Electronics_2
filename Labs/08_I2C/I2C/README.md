@@ -87,11 +87,7 @@ ISR(TIMER1_OVF_vect)
 
 2. (Hand-drawn) picture of I2C signals when reading checksum (only 1 byte) from DHT12 sensor. Indicate which specific moments control the data line master and which slave.
 
-
-
-
-
-
+![1636661016050](https://user-images.githubusercontent.com/91612253/141361678-6a7a4be9-3d50-4b64-be0f-2bdaf02acdd2.jpg)
 
 
 ### Meteo station
@@ -100,4 +96,5 @@ Consider an application for temperature and humidity measurement and display. Us
 
 1. FSM state diagram picture of meteo station. The image can be drawn on a computer or by hand. Concise name of individual states and describe the transitions between them.
 
-   ![your figure]()
+![Screenshot_6](https://user-images.githubusercontent.com/91612253/141364398-2fc3a82c-0ce9-4b1b-a1dd-1d2a8bb9efd5.png)
+
